@@ -1,0 +1,146 @@
+body {
+    background-color: aqua;
+}
+
+.mainDiv {
+    margin-top: 3%;
+    margin-left: 3%;
+    background-color: #fff;
+    width: 90%;
+    padding: 1%;
+    border: 5px solid purple;
+}
+
+.imgClass {
+    margin-left: 10%;
+    max-width: 100%;
+    height: auto;
+}
+
+.endBox {
+    margin-left: 3%;
+}
+
+.finTxt {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media only screen and (max-width: 1600px) {
+    .topNav h3 {
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .mainDiv h2 {
+        font-size: 24px;
+        margin: 20px 0;
+    }
+
+    .mainDiv {
+        padding: 20px;
+    }
+
+    .imgClass {
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .topNav h3 {
+        padding: 18px;
+        font-size: 18px;
+    }
+
+    .mainDiv h2 {
+        font-size: 22px;
+        margin: 18px 0;
+    }
+
+    .mainDiv {
+        padding: 18px;
+    }
+
+    .imgClass {
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .topNav h3 {
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    .mainDiv h2 {
+        font-size: 20px;
+        margin: 15px 0;
+    }
+
+    .mainDiv {
+        padding: 15px;
+    }
+
+    .imgClass {
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .topNav h3 {
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .mainDiv h2 {
+        font-size: 18px;
+        margin: 12px 0;
+    }
+
+    .mainDiv {
+        padding: 12px;
+    }
+
+    .imgClass {
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .topNav h3 {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .mainDiv h2 {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+    .mainDiv {
+        padding: 10px;
+    }
+
+    .imgClass {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .topNav h3 {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .mainDiv h2 {
+        font-size: 14px;
+        margin: 8px 0;
+    }
+
+    .mainDiv {
+        padding: 8px;
+    }
+
+    .imgClass {
+        margin-left: 0;
+    }
+}
